@@ -1,18 +1,19 @@
 let grade = 80
-
+function awardGrade(grades){
 if (grade > 79) {
-    console.log('A')
+    return 'A';
 }
 else if (grade >=60 && grade <=79){
-    console.log('B')
+    return 'B'
 }
-else if (grade >49 && grade <=59){
-    console.log('C')
+else if (grade>49 && grade <=59){
+    return 'C'
 }
 else if (grade >=40 && grade <=49){
-    console.log('D')
+    return 'D';
 }
 else if (grade <40){
-    console.log('E')
-}
+    return 'E';
+}}
+console.log(awardGrade)
 
